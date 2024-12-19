@@ -18,8 +18,8 @@ export default function Header({ onSearch }) {
         onSearch(event.target.value);
     };
 
-    const NoMostrarBuscador = location.pathname.startsWith('/mirarpeli/') || location.pathname === '/video' || location.pathname === '/genero';
-    const NoMostrarGenero = location.pathname.startsWith('/mirarpeli/') || location.pathname === '/';
+    const NoMostrarBuscador = location.pathname.startsWith('/mirarpeli/') || location.pathname === '/video' || location.pathname === '/genero' || location.pathname === '/404';
+    const NoMostrarGenero = location.pathname.startsWith('/mirarpeli/') || location.pathname === '/' || location.pathname === '/404';
 
     return (
         <header className='header'>

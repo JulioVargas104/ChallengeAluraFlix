@@ -13,9 +13,9 @@ function App() {
     { titulo: "CIENCIA FICCIÓN" },
     { titulo: "ANIME" },
     { titulo: "ACCIÓN" },
-    { titulo: "DRAMAS" },
+    { titulo: "TERROR" },
     { titulo: "DOCUMENTALES" },
-    { titulo: "TERROR" }
+    { titulo: "DRAMA" }
   ]);
 
   const [peliculas, setPeliculas] = useState([]);
