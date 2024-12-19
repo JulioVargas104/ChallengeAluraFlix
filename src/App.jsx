@@ -19,7 +19,7 @@ function App() {
   const [filteredPeliculas, setFilteredPeliculas] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [currentPelicula, setCurrentPelicula] = useState(null);
-  //const API_URL = 'https://fake-api-json.vercel.app/peliculas';
+  const API_URL = 'https://fake-api2-six.vercel.app/peliculas';
   
   const agregarGenero = (nuevoGenero) => {
     setGeneroPeli([...generoPeli, nuevoGenero]);
