@@ -9,7 +9,6 @@ export default function Formulario({ agregarPelicula, generoPeli, pelicula, edit
   const [titulo, actualizarTitulo] = useState("");
   const [imagen, actualizarImagen] = useState("");
   const [video, actualizarVideo] = useState("");
-  const [cartelera, actualizarCartelera] = useState("");
   const [sinopsis, actualizarSinopsis] = useState("");
 
 
@@ -18,7 +17,6 @@ export default function Formulario({ agregarPelicula, generoPeli, pelicula, edit
       actualizarTitulo(pelicula.titulo);
       actualizarImagen(pelicula.imagen);
       actualizarVideo(pelicula.video);
-      actualizarCartelera(pelicula.cartelera);
       actualizarSinopsis(pelicula.sinopsis);
     }
   }, [pelicula]);
@@ -30,7 +28,6 @@ export default function Formulario({ agregarPelicula, generoPeli, pelicula, edit
       titulo,
       imagen,
       video,
-      cartelera,
       sinopsis,
     };
 

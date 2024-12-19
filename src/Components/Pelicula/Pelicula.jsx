@@ -2,9 +2,11 @@ import React from 'react';
 import './Pelicula.css';
 import editar from '/img/editar.png';
 import eliminar from '/img/eliminar.png';
+import { FaRegClock } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 export default function Pelicula({ datos, onBorrar, onEdit }) {
-  const { id, titulo, imagen, duracion } = datos;
+  const { id, titulo, imagen } = datos;
 
   const manejarBorrado = () => {
     onBorrar(id);
@@ -21,6 +23,9 @@ export default function Pelicula({ datos, onBorrar, onEdit }) {
   return (
     <div className='pelicula'>
       <div className='encabezado'>
+        <Link to={`/mirarpeli/${id}`}>
+          <img className='imagen-peli' src={imagen} alt={titulo} />
+        </Link>
         <div className='info-peli'>
           <h4>{truncarTexto(titulo, 18)}</h4>
         </div>
