@@ -1,0 +1,10 @@
+{
+  "peliculas": [
+    {
+      "id": "1",
+      "titulo": "Spider-man: Lejos de Casa",
+      "imagen": "https://sm.ign.com/t/ign_latam/screenshot/default/301042548-2188372304658465-2536931955639352667-n_fy72.960.jpg",
+      "video": "https://www.youtube.com/watch?v=SkmRT3M4Vx4"
+    }
+  ]
+}
