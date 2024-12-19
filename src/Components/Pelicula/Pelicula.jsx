@@ -2,7 +2,6 @@ import React from 'react';
 import './Pelicula.css';
 import editar from '/img/editar.png';
 import eliminar from '/img/eliminar.png';
-import { FaRegClock } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 export default function Pelicula({ datos, onBorrar, onEdit }) {
@@ -32,11 +31,11 @@ export default function Pelicula({ datos, onBorrar, onEdit }) {
         <div className='iconos'>
           <div className='accion' onClick={manejarBorrado}>
             <img src={eliminar} alt="eliminar" />
-            <p>BORRAR</p>
+            <p>Borrar</p>
           </div>
           <div className='accion' onClick={manejarEdicion}>
             <img src={editar} alt="editar" />
-            <p>EDITAR</p>
+            <p>Editar</p>
           </div>
         </div>
       </div>

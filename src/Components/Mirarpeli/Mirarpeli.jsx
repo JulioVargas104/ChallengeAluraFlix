@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useParams } from 'react-router-dom';
-import { FaRegClock } from "react-icons/fa";
 import './Mirarpeli.css';
 
 export default function Mirarpeli() {
@@ -26,7 +25,6 @@ export default function Mirarpeli() {
         <div className="mirarpeli-container">
             <div className="description">
                 <h1 className="title">{pelicula?.titulo}</h1>
-
                 <p className="details">
                     <span className="label">Género:</span> {pelicula?.genero}
                 </p>

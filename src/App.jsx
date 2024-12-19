@@ -12,7 +12,10 @@ function App() {
   const [generoPeli, setGeneroPeli] = useState([
     { titulo: "CIENCIA FICCIÓN" },
     { titulo: "ANIME" },
-    { titulo: "ACCIÓN" }
+    { titulo: "ACCIÓN" },
+    { titulo: "DRAMAS" },
+    { titulo: "DOCUMENTALES" },
+    { titulo: "TERROR" }
   ]);
 
   const [peliculas, setPeliculas] = useState([]);
